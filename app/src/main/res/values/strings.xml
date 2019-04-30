@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DSA Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_potions">Alchemie</string>
+    <string name="button_demons">Dämonen</string>
+    <string name="button_elementals">Elementare</string>
+    <string name="label_potions">Alchemie</string>
+    <string name="label_demons">Dämonen</string>
+    <string name="label_elementals">Elementare</string>
+</resources>
