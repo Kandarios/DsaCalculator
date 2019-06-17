@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
     }
 
     @Override
@@ -48,6 +46,17 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PotionsActivity.class);
         startActivity(intent);
     }
+
+    public void switchToDemons(View view) {
+        Intent intent = new Intent(this, DemonsActivity.class);
+        startActivity(intent);
+    }
+
+    public void switchToElementals(View view) {
+        Intent intent = new Intent(this, ElementalsActivity.class);
+        startActivity(intent);
+    }
+
 
 
 }

@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ElementalsActivity"></activity>
-        <activity android:name=".DemonsActivity" />
+        <activity android:name=".ElementalsActivity"  android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DemonsActivity"  android:parentActivityName=".MainActivity"/>
         <activity android:name=".PotionsActivity" android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"

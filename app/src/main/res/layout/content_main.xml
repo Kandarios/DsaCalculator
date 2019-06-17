@@ -24,35 +24,46 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <ImageButton
                 android:id="@+id/button_elementals"
-                android:layout_width="264dp"
-                android:layout_height="145dp"
-                android:layout_marginTop="40dp"
-                android:text="@string/label_elementals"
+                android:layout_width="245dp"
+                android:layout_height="184dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/kasten"
+                android:onClick="switchToElementals"
+                android:scaleType="centerInside"
+                android:src="@drawable/elementarist"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button_demons" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button_demons"
-                android:layout_width="264dp"
-                android:layout_height="145dp"
-                android:layout_marginTop="40dp"
-                android:text="@string/label_demons"
+                android:layout_width="245dp"
+                android:layout_height="184dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/kasten"
+                android:onClick="switchToDemons"
+                android:scaleType="centerInside"
+                android:src="@drawable/schwarzmagierin"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button_potions" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button_potions"
-                android:layout_width="264dp"
-                android:layout_height="145dp"
-                android:layout_marginTop="50dp"
+                android:layout_width="245dp"
+                android:layout_height="184dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/kasten"
                 android:onClick="switchToPotions"
-                android:text="@string/button_potions"
+                android:scaleType="centerInside"
+                android:src="@drawable/alchimistin"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
