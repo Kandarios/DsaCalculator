@@ -7,4 +7,8 @@
     <string name="label_potions">Alchemie</string>
     <string name="label_demons">Dämonen</string>
     <string name="label_elementals">Elementare</string>
+    <string name="wesen_elemntal">Wesen:</string>
+    <string name="wesen_demon">Wesen:</string>
+    <string name="label_anzahl">Anzahl:</string>
+    <string name="trank">Trank</string>
 </resources>
